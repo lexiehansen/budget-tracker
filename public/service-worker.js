@@ -5,11 +5,12 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const DATA_CACHE_NAME = "data-cache-v2";
 
 const FILES_TO_CACHE = [
-  './index.html',
-  './css/styles.css',
-  './js/index.js',
-  './js/idb.js',
-  './manifest.json'
+    '/',
+    './index.html',
+    './css/styles.css',
+    './js/index.js',
+    './js/idb.js',
+    './manifest.json'
 ];
 
 self.addEventListener('install', function (e) {
